@@ -25,3 +25,5 @@ cd dir
 
 ls
 
+git config user.name
+

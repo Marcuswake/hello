@@ -1,0 +1,25 @@
+cls
+clean screen
+
+pip -V
+
+py -V
+
+pip list
+本地全局区安装的包
+
+pip install -U [packae_name]
+upgrade package
+
+pip uninstall  [package_name]
+
+https://pypi.org/
+
+pip freeze
+
+ pip show [package_name]
+
+pip install --upgrade pip
+pip upgrade
+
+pip --help
