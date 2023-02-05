@@ -5,4 +5,10 @@ git add 1.txt
 git commit -m "1"
 git remote add origin https://github.com/Marcuswake/hello.git
 git remote
-git push origin master
+git push -u origin master  (-u设定预设值)
+git commit -m "first version"
+
+
+git add .
+git commit -m "second version"
+git push （不要-u,已设为预设值）
