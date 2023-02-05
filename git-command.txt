@@ -1,0 +1,8 @@
+git log
+git status
+git add .
+git add 1.txt
+git commit -m "1"
+git remote add origin https://github.com/Marcuswake/hello.git
+git remote
+git push origin master
