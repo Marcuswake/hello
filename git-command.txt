@@ -18,6 +18,7 @@ git commit -m "second version"
 git push -u origin master
 
 git config --global --unset https.proxy
+取消全局代理
 
 git clone url
 
@@ -27,3 +28,4 @@ ls
 
 git config user.name
 
+git pull origin master
