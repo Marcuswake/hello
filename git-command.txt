@@ -12,3 +12,7 @@ git commit -m "first version"
 git add .
 git commit -m "second version"
 git push （不要-u,已设为预设值）
+
+git add .
+git commit -m "second version"
+git push -u origin master
