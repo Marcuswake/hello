@@ -23,3 +23,17 @@ pip install --upgrade pip
 pip upgrade
 
 pip --help
+
+pip install bs4 --user
+
+pip install bs4 --user -i https://pypi.doubanio.com/simple
+pip install torch --user -i https://pypi.doubanio.com/simple
+
+python -m venv venv1
+
+
+在该目录下activate.bat后，运行  pip list
+
+导出：
+(venv1)c:\dev>pip freeze > requirements.txt
+(venv1)c:\dev>pip install -r requirements.txt
